@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: pwd
     - name: Run a multi-line script
-      run: ./run_python_examples.sh
+      run: run_python_examples.sh
 
