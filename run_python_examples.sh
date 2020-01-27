@@ -27,6 +27,8 @@ fi
 
 ERRORS=""
 
+echo "line 3"
+
 function error() {
   ERR=$1
   ERRORS="$ERRORS\n$ERR"
