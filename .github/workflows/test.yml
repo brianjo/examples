@@ -12,5 +12,5 @@ jobs:
     - name: Run a one-line script
       run: pwd
     - name: Run a multi-line script
-      run: examples/run_python_examples.sh
+      run: ./run_python_examples.sh
 
